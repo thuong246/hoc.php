@@ -9,4 +9,4 @@ $category = [
 ];
 $categoryConnection= new CategoryConnection();
 $getData->create($category);
-redirectHome();
+header("Location: http://localhost/hoc.php/product/index.php");
